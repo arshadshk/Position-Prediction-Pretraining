@@ -1,0 +1,6 @@
+[submodule "deit"]
+	path = deit
+	url = https://github.com/arshadshk/deit.git
+[submodule "pytorch-image-models"]
+	path = pytorch-image-models
+	url = https://github.com/arshadshk/pytorch-image-models.git
