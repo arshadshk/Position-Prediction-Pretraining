@@ -1,5 +1,8 @@
 # Position-Prediction-Pretraining-Pytorch
-**Pytorch Implementation of : Position Prediction as an Effective Pretraining Strategy** 
+**Pytorch Implementation of : Position Prediction as an Effective Pretraining Strategy**   
+https://arxiv.org/abs/2207.07611   
+https://proceedings.mlr.press/v162/zhai22a.html     
+
 <br>
 <br>
 <img src="https://github.com/arshadshk/Position-Prediction-Pretraining-MP3/blob/main/images/title.png">
