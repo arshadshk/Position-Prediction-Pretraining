@@ -40,7 +40,7 @@ Pretrainig using distillation: (WIP)
 
 ## Results
 Results from paper : 
-<img src="https://github.com/arshadshk/Position-Prediction-Pretraining-MP3/tree/main/images/results.png">
+<img src=https://github.com/arshadshk/Position-Prediction-Pretraining-MP3/blob/main/images/results.png>
 <br>
 Results from running this repo: (wip)
 
