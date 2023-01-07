@@ -2,7 +2,7 @@
 **Pytorch Implementation of : Position Prediction as an Effective Pretraining Strategy** 
 <br>
 <br>
-<img src="https://github.com/arshadshk/Position-Prediction-Pretraining-MP3/tree/main/images/titls.png">
+<img src="https://github.com/arshadshk/Position-Prediction-Pretraining-MP3/blob/main/images/title.png">
 <br>
 
 ## About  
