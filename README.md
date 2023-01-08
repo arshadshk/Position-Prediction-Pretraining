@@ -41,7 +41,7 @@ B,C,H,W = 64,3,32,32
 out = model( torch.randn(B,C,H,W) )
 print( out.shape )
 # torch.Size([64, 65, 64]) 
-# (batch, cls + patches, prob_positions) 
+# (batch, cls + patches, position_logits) 
 # N:patches and +1 for cls
 ```
 ### Pretraining
