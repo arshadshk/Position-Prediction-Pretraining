@@ -17,7 +17,34 @@ Clone this repo, and then update the submoules/sub-repos. Make sure to use DieT 
         git submodule update --init --recursive     
 <br>
 
-## Pretraining
+### Model  
+```python
+import torch
+import sys
+sys.path.append("./pytorch-image-models/")
+
+from timm.models import create_model 
+
+model = create_model(   
+                        model_name= "deit_small_patch4_32",
+                        pretrained=False,
+                        num_classes=100,
+                        drop_rate=0.3,
+                        drop_path_rate=0.1,
+                        drop_block_rate=None,
+                        img_size=32,
+                        attn_mask=True,
+                        eta=0.75,       
+                        patch_stride=4
+                    )
+B,C,H,W = 64,3,32,32
+out = model( torch.randn(B,C,H,W) )
+print( out.shape )
+# torch.Size([64, 65, 64]) 
+# (batch, cls + patches, prob_positions) 
+# N:patches and +1 for cls
+```
+### Pretraining
 Pretrainig on (CIFAR-100) dataset without distillation: 
 
         python3 deit/main.py    --attn_mask true  \
