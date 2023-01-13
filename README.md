@@ -71,7 +71,17 @@ Pretrainig using distillation: (WIP)
 Results from paper : 
 <img src=https://github.com/arshadshk/Position-Prediction-Pretraining-MP3/blob/main/images/results.png>
 <br>
-Results from running this repo: (wip)
+<br>
+Results from running this repo:  
+Dataset : CIFAR 100  
+epochs : 362  
+eta : 0.25  
+$\eta = 0.75$   
+$eta = 1 - \eta$  
+checkpoint link : https://www.kaggle.com/datasets/arshadshaikh7/pretrainedvit   
+script to plot results :     
+<img src="https://github.com/arshadshk/Position-Prediction-Pretraining/blob/main/images/Screen%20Shot%202023-01-13%20at%209.29.31%20PM.png" width="350">
+  
 <br>
 
 ## Citations
